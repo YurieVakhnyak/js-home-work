@@ -32,3 +32,17 @@ button {
 .gallery-image {
   height: 200px;
 }
+
+.boxes {
+  height: 20px;
+  margin-top: 15px;
+  display: flexbox;
+  flex-grow: inherit;
+  flex-shrink: inherit;
+  flex-direction: column;
+}
+
+.box {
+  height: 30px;
+  margin-bottom: 2px;
+}
